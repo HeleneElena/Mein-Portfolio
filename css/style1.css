@@ -45,9 +45,9 @@ nav {
     text-decoration: none;
     color: #4E5D79;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 28px;
-    margin-left: 90px;
+    margin-left: 110px;
 }
 .menu_link_color {
     color: #E7E2E1;
@@ -63,12 +63,11 @@ nav {
 }
 h1 {
     font-weight: normal;
-    font-size: 64px;
+    font-size: 4rem;
     line-height: 90px;
     color: #FF902E;
     font-family: 'Lobster', cursive;
     display: flex;
-    align-items: center;
     justify-content: center;
     margin-bottom: 50px;
 }
@@ -103,7 +102,7 @@ h1 {
 }
 .header_button {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 21px;
     color: #4E5D79;
     padding: 22px;
@@ -115,10 +114,14 @@ h1 {
     left: 50%;
     top: -150px;
     transform: translate(-20%, 0);
+    cursor: pointer;
 }
 .header_button:hover {
     color: #fff;
     background: #e77007;
+}
+.section1 {
+    padding-top: 50px;
 }
 .section1_wrapper {
     display: flex;
@@ -134,14 +137,14 @@ h1 {
 }
 .section1_textR {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 27px;
     margin-top: 57px;
     margin-bottom: 31px;
 }
 .section1_textD {
     font-weight: 500;
-    font-size: 22px;
+    font-size: 1.4rem;
     line-height: 33px;
     margin-bottom: 24px;
 }
@@ -153,7 +156,7 @@ h1 {
 .section1_meinZ {
     text-decoration: none;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 1.4rem;
     line-height: 28px;
     color: #FF902E;
 }
@@ -167,12 +170,15 @@ h1 {
 }
 .section2 {
     position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .section2_foto {
     margin-top: 125px;
     margin-left: 134px;
     margin-right: 151px;
     width: 454px;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.25));
 }
 .section2_line {
     border: 1px solid #FF902E;
@@ -185,7 +191,7 @@ h1 {
     list-style-type: none;
 }
 .section2_content_title {
-    font-size: 64px;
+    font-size: 4rem;
     line-height: 28px;
     color: #E7E2E1;
     font-family: 'Lobster', cursive;
@@ -193,7 +199,7 @@ h1 {
     margin-bottom: 104px;
 }
 .section2_content_text {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     line-height: 28px;
     color: #FF902E;
@@ -201,13 +207,13 @@ h1 {
 }
 .section2_content_list {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 28px;
     margin-bottom: 10px;
 }
 .section2_button {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 21px;
     color: #4E5D79;
     padding: 22px;
@@ -216,16 +222,17 @@ h1 {
     border: 1px solid #FF902E;
     border-radius: 10px;
     margin-top: 161px;
+    cursor: pointer;
 }
 .section2_button:hover {
     color: #fff;
     background: #e77007;
 }
-.section2_arrow {
+.section2_arrow {  /* wird Slider  */
     position: absolute;
     width: 1300px;
     top: 38%;
-    left: 21%;
+    left: 17%;
     display: flex;
     justify-content: space-between;
 }
@@ -236,12 +243,12 @@ h1 {
     display: block;
 }
 .section3_title {
-    font-size: 64px;
+    font-size: 4rem;
     line-height: 28px;
     color: #E7E2E1;
     font-family: 'Lobster', cursive;
     margin-top: 49px;
-    margin-bottom: 101px;
+    margin-bottom: 141px;
     display: flex;
     justify-content: center;
 }
@@ -251,8 +258,64 @@ h1 {
     align-items: center;
     margin-bottom: 150px;
 }
-
-
-
-
-
+.section3_card_img {
+    transition: 1s;
+    filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, 0.25));
+}
+.section3_card_img:hover {
+    transform: scale(2);
+}
+.section4 {
+    padding-top: 109px;
+    padding-bottom: 85px;
+}
+.section4_title {
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+    line-height: 28px;
+    color: #E7E2E1;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}   
+.section4_cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.section4_card {
+    width: 178px;
+    margin-right: 97px;
+    margin-bottom: 75px;
+}
+footer {
+    background: #FF902E;
+    padding-top: 47px;
+    padding-bottom: 65px;
+}
+.footer_title {
+    font-size: 4rem;
+    line-height: 28px;
+    color: #4E5D79;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+    margin-top: 50px;
+}
+.footer_kontakt {
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 28px;
+}
+.footer_netzwerk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_netzwerk_icon {
+    margin-left: 24px;
+    width: 45px;
+    height: 45px;
+}
