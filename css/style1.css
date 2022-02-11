@@ -169,75 +169,62 @@ h1 {
     margin-left: 15px;
 }
 .section2 {
-    position: relative;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 200px;
 }
-.section2_foto {
-    margin-top: 125px;
-    margin-left: 134px;
-    margin-right: 151px;
-    width: 454px;
-    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.25));
+.slider_container {
+    width: 1088px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slider_line {
+    display: flex;
+    height: 558px;
+    width: 4352px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+.section2_wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    margin-left: 200px;
 }
 .section2_line {
     border: 1px solid #FF902E;
     width: 151px;
     margin: 0 auto;
-    margin-top: 102px;
-    margin-bottom: 118px;
+    margin-top: 28px;
+    margin-bottom: 58px;
 }
-.section2_content > ul {
-    list-style-type: none;
-}
-.section2_content_title {
+.section2_title {
     font-size: 4rem;
     line-height: 28px;
     color: #E7E2E1;
     font-family: 'Lobster', cursive;
-    margin-top: 95px;
-    margin-bottom: 104px;
-}
-.section2_content_text {
-    font-size: 1.5rem;
-    font-weight: bold;
-    line-height: 28px;
-    color: #FF902E;
-    margin-bottom: 70px;
-}
-.section2_content_list {
-    font-weight: bold;
-    font-size: 1.5rem;
-    line-height: 28px;
-    margin-bottom: 10px;
+    margin-top: 70px;
+    margin-bottom: 84px;
+    text-align: center;
 }
 .section2_button {
+    width: 231px;
+    height: 58px;
     font-weight: bold;
     font-size: 1.125rem;
-    line-height: 21px;
+    line-height: 2px;
     color: #4E5D79;
     padding: 22px;
     background: #FF902E;
     filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
     border: 1px solid #FF902E;
-    border-radius: 10px;
-    margin-top: 161px;
+    border-radius: 20px;
     cursor: pointer;
 }
 .section2_button:hover {
     color: #fff;
     background: #e77007;
-}
-.section2_arrow {  /* wird Slider  */
-    position: absolute;
-    width: 1300px;
-    top: 38%;
-    left: 17%;
-    display: flex;
-    justify-content: space-between;
-}
-.section2_arrow_left, .section2_arrow_right {
-    width: 76px;
 }
 .container1 {
     display: block;
