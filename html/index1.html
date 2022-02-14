@@ -18,16 +18,15 @@
         <nav>
             <ul class="nav_list">
                 <li class="menu_list"><a href="#" class="menu_link">Home</a></li>
-                <li class="menu_list"><a href="#" class="menu_link">Portfolio</a></li>
-                <li class="menu_list"><a href="#" class="menu_link menu_link_color">Bücher</a></li>
-                <li class="menu_list"><a href="#" class="menu_link menu_link_color">Kontakte</a></li>
+                <li class="menu_list"><a href="./index2.html" class="menu_link">Portfolio</a></li>
+                <li class="menu_list"><a href="./index3.html" class="menu_link menu_link_color">Bücher</a></li>
+                <li class="menu_list"><a href="#footer" class="menu_link menu_link_color">Kontakte</a></li>
             </ul>
         </nav>
         <h1> Frontend Developer</h1> 
         <div class="container">
-            <div class="header_content">
-                    <p class="header_textDeutsch"> 
-                        Mein Name ist Ebert Helene. Ich mag Web-Entwicklung, 
+            <div class="header_content ">
+                    <p class="header_textDeutsch"> Mein Name ist Ebert Helene. Ich mag Web-Entwicklung, 
                         ich lerne aktiv neue Standards und Technologien.</p> 
             <p class="header_textRussisch">Меня зовут Эберт Елена. Я люблю 
                 веб-разработку, активно изучаю новые стандарты и технологии.</p>
@@ -44,11 +43,11 @@
                 </ul>
             </div>
         </div>
-        <button class="header_button">Kontaktieren Sie mich</button>
+        <button class="header_button"><a href="#footer" class="header_link"> Kontaktieren Sie mich</a></button>
     </header>
     <main>
         <section class="section1">
-                <div class="container"> 
+                <div class="container wrapper"> 
                     <img src="../images/section1Ich.png" alt="mein Foto" class="section1_img">
                     <div class="section1_text">
                         <p class="section1_textR">Я занимаюсь веб-дизайном и веб-разработкой,
@@ -59,22 +58,22 @@
                             Web-Entwicklung, sie sind Teil meines Lebens geworden. Ich kenne Deutsch und 
                             Russisch, lerne Englisch und Italienisch. Und ich schreibe auch Bücher.</p>
                         <div class="section1_Zertifikat">
-                            <a href="#" class="section1_meinZ">Meine Zertifikate</a>
-                            <a href="#"> <img src="../images/section1Zertifikat.svg" alt="Zertifikat" class="section1_mZ"> </a>
+                            <a href="#zertifikat" class="section1_meinZ">Meine Zertifikate</a>
+                            <a href="#zertifikat"> <img src="../images/section1Zertifikat.svg" alt="Zertifikat" class="section1_mZ"> </a>
                         </div>
                     </div>
-            </div>
+                </div>
         </section>
-        <section class="section2">
+        <section class="section2 wrapper">
             <h2 class="section2_title">Mein Portfolio</h2>
             <div class="slider_container">
-                <div class="slider">
+                <div class="slider"> <a href="./index2.html">
                     <div class="slider_line">
-                        <img src="../images/slider1.jpg" alt="projekt" class="slider_img">
+                        <img src="../images/slider1.jpg" alt="projekt" class="slider_img slider_img1">
                         <img src="../images/slider2.jpg" alt="projekt" class="slider_img">
                         <img src="../images/slider3.jpg" alt="projekt" class="slider_img">
                         <img src="../images/slider4.jpg" alt="projekt" class="slider_img">
-                    </div>
+                    </div> </a> 
                 </div>
             </div>
             <div class="section2_wrapper">
@@ -82,9 +81,9 @@
                 <button class="section2_button">Klicken</button>
             </div>
         </section>
-        <section class="section3">
+        <section class="section3" id="zertifikat">
             <div class="container container1"> 
-                <h2 class="section3_title">Meine Zertifikate</h2>
+                <h2  class="section3_title">Meine Zertifikate</h2>
                 <div class="section3_cards">
                     <div class="section3_card">
                         <img src="../images/section3MeinD.jpg" alt="zertifikat" class="section3_card_img">
@@ -106,12 +105,12 @@
             <div class="container">
                 <div class="section4_cards">
                     <div class="section4_cards_row">
-                       <a href="#"><img src="../images/buch1.jpg" alt="Buch" class="section4_card"></a> 
-                       <a href="#"> <img src="../images/buch2.jpg" alt="Buch" class="section4_card"></a> 
+                       <a href="./index3.html"><img src="../images/buch1.jpg" alt="Buch" class="section4_card"></a> 
+                       <a href="./index3.html"> <img src="../images/buch2.jpg" alt="Buch" class="section4_card"></a> 
                     </div>
                     <div class="section4_cards_row">
-                       <a href="#"> <img src="../images/buch3.jpg" alt="Buch" class="section4_card"></a> 
-                       <a href="#"> <img src="../images/buch4.jpg" alt="Buch" class="section4_card"></a> 
+                       <a href="./index3.html"> <img src="../images/buch3.jpg" alt="Buch" class="section4_card"></a> 
+                       <a href="./index3.html"> <img src="../images/buch4.jpg" alt="Buch" class="section4_card"></a> 
                     </div>
                 </div>
                 <div class="section4_person">
@@ -120,19 +119,19 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer id="footer">
         <h2 class="footer_title">Kontakte</h2>
         <div class="container">
             <div class="footer_kontakt">
-                <p class="footer_kontakt_tel">Meine Telefonnummer    015 2245 02827</p>
-                <p class="footer_kontakt_mail">Meine E-Mail  	heleneebert1@gmail.com</p>
+                <p class="footer_kontakt_tel">Meine Telefonnummer:    015 2245 02827</p>
+                <p class="footer_kontakt_mail">Meine E-Mail: 	heleneebert1@gmail.com</p>
             </div>
             <div class="footer_netzwerk">
-               <a href="#"> <img src="../images/social_media_logo_skype_icon-icons 1.svg" alt="skype" class="footer_netzwerk_icon"></a>
-               <a href="#"> <img src="../images/logo_github_square_icon_160738 1.svg" alt="github" class="footer_netzwerk_icon"></a>
-               <a href="#"> <img src="../images/Behance_icon-icons 1.svg" alt="bechance" class="footer_netzwerk_icon"></a>
-               <a href="#"> <img src="../images/vkontakte_icon_178837 1.svg" alt="vkontakte" class="footer_netzwerk_icon"></a>
-            </div>
+                <a href="#"> <img src="../images/social_media_logo_skype_icon-icons 1.svg" alt="skype" class="footer_netzwerk_icon"></a>
+                <a href="https://github.com/HeleneElena?tab=repositories"> <img src="../images/logo_github_square_icon_160738 1.svg" alt="github" class="footer_netzwerk_icon"></a>
+                <a href="https://www.behance.net/ap061040"> <img src="../images/Behance_icon-icons 1.svg" alt="bechance" class="footer_netzwerk_icon"></a>
+                <a href="https://vk.com/elena_ebert"> <img src="../images/vkontakte_icon_178837 1.svg" alt="vkontakte" class="footer_netzwerk_icon"></a>
+             </div>
         </div>
     </footer>
     <script src="../script/main1.js"></script>

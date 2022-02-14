@@ -22,7 +22,7 @@ body {
     background: #4E5D79;
 }
 nav {
-    max-width: 560px;
+    max-width: 860px;
     margin: 0 auto;
     margin-top: 0;
     padding-top: 0;
@@ -41,6 +41,10 @@ nav {
     font-weight: bold;
     font-size: 1.125rem;
     line-height: 28px;
+}
+.menu_link_color:hover {
+    text-decoration: underline;
+    font-size: 1.18rem;
 }
 h1 {
     font-size: 4rem;
@@ -72,9 +76,6 @@ h1 {
     height: 0px;
     margin-top: 250px;
     animation: loader 1s ease infinite;
-}
-.section1_cards {
-    
 }
 .section1_card {
     background: #FF902E;        
@@ -140,6 +141,17 @@ h1 {
     line-height: 28px;
     margin-bottom: 10px;
 }
+
+.section_btn, .section_btn1 {
+    text-decoration: none;
+    color: #fff;
+}
+.section_btn:hover {
+    color: #f37404;
+}
+.section_btn1:hover {
+    color: #354055;
+}
 .section_button {
     font-weight: bold;
     font-size: 1.125rem;
@@ -153,10 +165,23 @@ h1 {
     cursor: pointer;
     box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 80px;
+    transition-duration: 1s;
+    box-shadow: 10px 12px 10px rgb(58, 58, 58);
 }
 .section_button:hover {
     color: #FF902E;
-    background: #062868;
+    background: #354055;
+    box-shadow: 2px 4px 4px rgb(58, 58, 58);
+    top: 5px;
+}
+.section_button1 {
+    background: #FF902E;
+    border: 1px solid #FF902E;
+}
+.section_button1:hover {
+    background: #f37404;
+    border: 1px solid #fa7705;
+    color: #4E5D79;
 }
 .section3 {
     background: #4E5D79;
@@ -167,15 +192,7 @@ h1 {
 .section_content_text1 {
     color: #FF902E;
 }
-.section_button1 {
-    color: #163879;
-    background: #FF902E;
-    border: 1px solid #FF902E;
-}
-.section_button1:hover {
-    color: #fff;
-    background: #f37201;
-}
+
 footer {
     background: #FF902E;
     padding-top: 47px;
