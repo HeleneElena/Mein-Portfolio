@@ -377,7 +377,7 @@ h1 {
 .section22 {
     background: #FF902E;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     color: #fff;
 }
 .section22_foto {
@@ -403,6 +403,9 @@ h1 {
     line-height: 28px;
     color: #4E5D79;
     margin-bottom: 70px;
+}
+.section22_content_lists {
+    padding-bottom: 80px;
 }
 .section22_content_list {
     font-weight: bold;
@@ -502,7 +505,6 @@ h1 {
     color: #4E5D79;
     box-shadow: 2px 4px 4px rgb(58, 58, 58);
     top: 5px;
-
 }
 .section_ora {
     padding-top: 110px;
@@ -577,15 +579,11 @@ h1 {
 .section33 {
     background: #4E5D79;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     color: #fff;
 }
 .section33_content_text1 {
     color: #FF902E;
-}
-.section4 {
-    padding-top: 109px;
-    padding-bottom: 85px;
 }
 .section4_title {
     font-family: 'Lobster', cursive;
@@ -914,8 +912,11 @@ footer {
     .section22 {
         background: #FF902E;
         padding-top: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 100px;
         color: #fff;
+    }
+    .section22_content_lists {
+        margin-bottom: 80px;
     }
     .section22_foto {
         margin-top: 125px;
@@ -1110,7 +1111,7 @@ footer {
     .section33 {
         background: #4E5D79;
         padding-top: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 100px;
         color: #fff;
     }
     .section33_content_text1 {
@@ -1430,7 +1431,7 @@ footer {
     .section22 {
         background: #FF902E;
         padding-top: 10px;
-        padding-bottom: 50px;
+        padding-bottom: 100px;
         color: #fff;
         padding-left: 10%;
     }
@@ -1457,6 +1458,9 @@ footer {
         line-height: 28px;
         color: #4E5D79;
         margin-bottom: 50px;
+    }
+    .section22_content_lists {
+        margin-bottom: 80px;
     }
     .section22_content_list {
         font-weight: bold;
@@ -1614,7 +1618,7 @@ footer {
         background: #4E5D79;
         color: #fff;
         padding-top: 10px;
-        padding-bottom: 50px;
+        padding-bottom: 100px;
         padding-left: 10%;
     }
     .section33_content_text1 {
