@@ -391,7 +391,6 @@ h1 {
 }
 .section22_content_title {
     font-size: 3rem;
-    line-height: 28px;
     font-family: 'Lobster', cursive;
     margin-top: 95px;
     margin-bottom: 104px;
@@ -434,7 +433,6 @@ h1 {
     border: 1px solid #4E5D79;
     margin-top: 100px;
     cursor: pointer;
-    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 80px;
     transition-duration: 1s;
     box-shadow: 10px 12px 10px rgb(58, 58, 58);
@@ -476,7 +474,6 @@ h1 {
     margin: 0 auto;
 }
 .section25_textD {
-    font-weight: 500;
     font-size: 1.125rem;
     line-height: 33px;
     margin-bottom: 51px;
@@ -489,7 +486,6 @@ h1 {
 }
 .section_btn_ora {
     background: #FF902E;
-    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     border: 1px solid #FF902E;
     padding: 9px 68px;
@@ -519,7 +515,6 @@ h1 {
 }
 .section_btn_grey {
     background: #4E5D79;
-    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     border: 1px solid #4E5D79;
     padding: 9px 68px;
@@ -971,7 +966,6 @@ footer {
         border: 1px solid #4E5D79;
         margin-top: 100px;
         cursor: pointer;
-        box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
         margin-bottom: 80px;
         transition-duration: 1s;
         box-shadow: 10px 12px 10px rgb(58, 58, 58);
@@ -1025,7 +1019,6 @@ footer {
     }
     .section_btn_ora {
         background: #FF902E;
-        box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
         border-radius: 20px;
         border: 1px solid #FF902E;
         padding: 9px 68px;
@@ -1055,7 +1048,6 @@ footer {
     }
     .section_btn_grey {
         background: #4E5D79;
-        box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
         border-radius: 20px;
         border: 1px solid #4E5D79;
         padding: 9px 68px;
@@ -1446,7 +1438,6 @@ footer {
     }
     .section22_content_title {
         font-size: 3rem;
-        line-height: 28px;
         font-family: 'Lobster', cursive;
         margin-top: 95px;
         margin-bottom: 54px;
@@ -1489,7 +1480,6 @@ footer {
         border: 1px solid #4E5D79;
         margin-top: 50px;
         cursor: pointer;
-        box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
         margin-bottom: 50px;
         transition-duration: 1s;
         box-shadow: 10px 12px 10px rgb(58, 58, 58);
@@ -1542,7 +1532,6 @@ footer {
     }
     .section_btn_ora {
         background: #FF902E;
-        box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
         border-radius: 20px;
         border: 1px solid #FF902E;
         padding: 9px 68px;
@@ -1572,7 +1561,6 @@ footer {
     }
     .section_btn_grey {
         background: #4E5D79;
-        box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
         border-radius: 20px;
         border: 1px solid #4E5D79;
         padding: 9px 68px;
