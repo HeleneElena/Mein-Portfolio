@@ -565,6 +565,8 @@ h1 {
     margin-bottom: 150px;
 }
 .section3_card_img {
+    width: 168px;
+    height: 236px;
     transition: 1s;
     filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, 0.25));
 }
